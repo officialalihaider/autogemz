@@ -133,7 +133,141 @@
 
 
     <!-- SINGLE PRODUCT COMPONENT -->
- <div class="col-xl-4 col-lg-4 col-md-6">
+    <div class="col-xl-4 col-lg-4 col-md-6">
+       <div class="de__pcard text-center p-3">
+        <!-- Product Images + Hover + CLICK TO OPEN MODAL -->
+        <div class="atr__images">
+          <div class="ribbon ribbon-new">NEW</div>
+
+            <!-- CLICK ON IMAGE OPEN GALLERY MODAL -->
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalImages_nissanpetrol">
+                <!-- Main Image -->
+                <img class="atr__image-main img-fluid" 
+                    src="images/cars/nissanpetrol/1.jpeg">
+
+                <!-- Hover Image -->
+                <img class="atr__image-hover img-fluid" 
+                    src="images/cars/nissanpetrol/2.jpeg">
+            </a>
+
+            <!-- Only DETAILS button -->
+            <div class="d-flex justify-content-center gap-3 mt-2">
+                <!-- Details Button -->
+                <button class="btn btn-outline-dark btn-sm"
+                        data-bs-toggle="modal" data-bs-target="#modalDetails_nissanpetrol">
+                    <i class="icon_info_alt text-light"></i>
+                </button>
+            </div>
+        </div>
+
+        <h3 class="mt-3">Nissan Patrol TI.L </h3>
+        <div class="atr__main-price">Model : 2016</div>
+    </div>
+
+
+
+    <!-- IMAGE GALLERY MODAL -->
+    <div class="modal fade" id="modalImages_nissanpetrol" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title">Nissan Patrol TI.L - Images</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+          </div>
+
+        <div class="modal-body p-0">
+            <div id="carouselnissanpetrol" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- LOOP ALL IMAGES -->
+                <div class="carousel-item active"><img src="images/cars/nissanpetrol/1.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/3.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/4.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/5.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/6.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/7.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/8.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/9.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/10.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/11.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/12.jpeg" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="images/cars/nissanpetrol/13.jpeg" class="d-block w-100"></div>
+                </div>
+
+              <!-- Carousel Controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselnissanpetrol" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselnissanpetrol" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- DETAILS MODAL -->
+    <div class="modal fade" id="modalDetails_nissanpetrol" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title">Nissan Patrol TI.L - Details</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+          </div>
+
+      <div class="modal-body">
+
+  <h4>Specifications</h4>
+  <p>
+    ✔ Brand: Nissan Patrol TI.L <br>
+    ✔ Model: 2013 <br>
+    ✔ Import: 2017 <br>
+    ✔ Registration: Islamabad <br>
+    ✔ Mileage: 80,000 KM <br>
+    ✔ Color: Deep Maroon <br>
+  </p>
+
+  <h5 class="mt-3">Description</h5>
+    <p>
+      • 5.7L V8 Patrol Engine <br>
+      • RED Room <br>
+      • Full-time 4x4 System <br>
+      • Low-range Gearbox <br>
+      • Hill Descent Control <br>
+      • Different Terrain Modes <br>
+      • All Leather Seats <br>
+      • Front Memory Seats <br>
+      • Heated & Ventilated Seats <br>
+      • Tri-zone Climate Control <br>
+      • Cool Box <br>
+      • Rear Entertainment Screens <br>
+      • Parking Sensors & Camera <br>
+      • Sunroof <br>
+      • Rear AC Vents <br>
+      • Height Control <br>
+      • 7-Seater <br>
+      • Roof Rails <br>
+      • 360 Camera <br>
+      • And more… <br>
+             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+
+<div class="col-xl-4 col-lg-4 col-md-6">
     <div class="de__pcard text-center p-3">
         <!-- Product Images + Hover + CLICK TO OPEN MODAL -->
         <div class="atr__images">
